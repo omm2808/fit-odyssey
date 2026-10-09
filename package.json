@@ -1,0 +1,13 @@
+{
+  "name": "hackverse-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --prefix hackverse dev",
+    "dev:backend": "pnpm --prefix hackverse dev:backend",
+    "dev:frontend": "pnpm --prefix hackverse dev:frontend",
+    "dev:ml": "pnpm --prefix hackverse dev:ml",
+    "dev:mobile": "pnpm --prefix hackverse --filter @fit-odyssey/mobile dev",
+    "build": "pnpm --prefix hackverse build"
+  }
+}
